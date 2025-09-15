@@ -4,9 +4,9 @@ import joblib
 from utils.preprocess import preprocess_input
 
 # Load the pre-trained model
-model = joblib.load('models\stellar_object_classifier_model.pkl')
+model = joblib.load('models/stellar_object_classifier_model.pkl')
 # Load the scaler
-scaler = joblib.load('models\scaler.joblib')
+scaler = joblib.load('models/scaler.joblib')
 
 st.title("🌌 Stellar Object Classifier")
 st.write("Predict whether an object is a **Star, Galaxy, or Quasar** using ML")
